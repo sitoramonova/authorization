@@ -20,3 +20,31 @@
 git clone https://github.com/sitoramonova/authorization
 cd authorization
 ```
+Создайте виртуальное окружение и активируйте его:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Установите зависимости:
+
+```
+pip install -r requirements.tx
+```
+Примените миграции базы данных:
+
+```
+python manage.py migrate
+```
+Запустите локальный сервер разработки:
+
+```
+python manage.py runserver
+```
+
+## Postman
+
+Файл Referral System API.postman_collection.json содержит коллекцию запросов для тестирования API системы авторизации и реферальной системы с помощью Postman.
+
+##
